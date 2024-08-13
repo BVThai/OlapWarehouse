@@ -1,6 +1,5 @@
 ## Project Overview
-This project involved the design and implementation of an OLAP cube for multidimensional data analysis, along with related tasks aimed at improving traffic safety through data-driven insights.
-
+This project involved the design and implementation of an OLAP cube for multidimensional data analysis, focused on Ryanair's flight reviews. The goal was to analyze customer feedback to gain insights into service quality, customer satisfaction, and areas for improvement.
 ## Key Accomplishments
 - **OLAP Cube Design and Implementation**: Designed and implemented an OLAP cube to enable comprehensive multidimensional data analysis.
 - **ETL Processes**: Conducted ETL (Extract, Transform, Load) processes to prepare and clean data, ensuring high-quality inputs for analysis.
