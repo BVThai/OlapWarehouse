@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProject1</Database>
+    <Server>DESKTOP-52O9CHM\MSSQLSERVER1</Server>
+    <ConnectionString>Data Source=DESKTOP-52O9CHM\MSSQLSERVER1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ojjbJbUq/Yqfo9OLpy+JeCTYD5c=5/9/2024 9:07:05 PM5/9/2024 9:07:05 PM</TimeStamp>
+        <ID>
+          <String>Review WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ql4lsNif9/67d2JxuT9J8ut4Vcw=5/9/2024 9:07:50 PM5/9/2024 9:07:50 PM</TimeStamp>
+        <ID>
+          <String>Review WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CRxeFayO2ADKkHYYf79uoMZHSqQ=5/9/2024 9:11:02 PM5/9/2024 9:08:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Seat Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sqGxZHpK5uDgFvZv48nS8jckLEg=5/9/2024 9:11:02 PM5/9/2024 9:08:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Passenger Country</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yfwlOZBeMIJSV042I16YPsi7Qs8=5/9/2024 9:11:02 PM5/9/2024 9:08:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Travel Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RGADnYSToRHcuIaiBRzPj4VstVg=5/9/2024 9:11:02 PM5/9/2024 9:08:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Return</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sEoQ2bz6LchE/ukF2GE0zkirEZ8=5/9/2024 9:11:02 PM5/9/2024 9:08:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Aircraft</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ii6MuAmZGF1nITANWrvLjXwdPbg=5/9/2024 9:11:02 PM5/9/2024 9:08:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Route</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y7EPR/45aIz8g8WyREJmSCoBZ6I=5/9/2024 10:25:57 PM5/9/2024 9:08:27 PM</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>gIJRKBhS0R9SfGZv3wrdKqJ1cPE=5/18/2024 9:46:00 PM5/9/2024 11:04:24 PM2R5Km4O1HnJIcjFB58KEqsBn2Sk=5/9/2024 11:04:24 PM5/9/2024 11:04:24 PM</TimeStamp>
+        <ID>
+          <String>Review WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>bzn+CrEETDjmdnfUfA7hGDjW4Zo=5/19/2024 10:12:04 AM5/19/2024 10:12:04 AM</TimeStamp>
+        <ID>
+          <String>1st Decision Tree</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>9c5ej4Von7QZK2Z68m1phKv4URM=5/9/2024 9:05:40 PM5/9/2024 9:05:40 PM</TimeStamp>
+      <ID>
+        <String>MultidimensionalProject1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-05-19T03:12:28.456667Z</LastDeployed>
+</DeploymentSnapshot>
